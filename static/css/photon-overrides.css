@@ -1,0 +1,92 @@
+.toolbar-header .title {
+  -webkit-app-region: drag;
+}
+
+html,
+body {
+  background: transparent
+}
+
+.window {
+  margin-top: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: scroll;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 1.3em;
+  text-align: left;
+  color: #232323;
+  font-weight: 300;
+  position: relative;
+}
+
+code,
+.description {
+  margin-top: -3px;
+  display: block;
+  color: #a5a5a5;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  font-size: 11px;
+}
+
+td {
+  padding-top: .8em;
+  padding-bottom: .8em;
+  padding-left: .8em;
+  padding-right: .8em;
+}
+
+td {
+  border-bottom: 1px dotted #ccc;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.status {
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  background: #00d218;
+  vertical-align: middle;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid white;
+  position: absolute;
+  left: 50%;
+  margin-left: -11px
+}
+
+.link {
+  color: #0070E0;
+  text-decoration: none;
+  margin-right: 7px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 50ms ease;
+}
+
+tr:hover .link {
+  opacity: 1;
+}
+
+.btn {
+  margin-top: -2px;
+}
+
+footer {
+  padding-top: 0.1em
+}
